@@ -1340,6 +1340,60 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "Bulbasaur",
+      "hp": "1",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 151
+    },
+    {
+      "name": "Baby",
+      "hp": "2",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 152
+    },
+    {
+      "name": "Jasper",
+      "hp": "43",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 153
+    },
+    {
+      "name": "mark",
+      "hp": "43",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 154
+    },
+    {
+      "name": "mark",
+      "hp": "43",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 155
+    },
+    {
+      "name": "Baby",
+      "hp": "43",
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-talk6406/images/4/43/Bulbasaur.png/revision/latest/scale-to-width-down/310?cb=20170506185349"
+      },
+      "id": 156
     }
   ]
 }
