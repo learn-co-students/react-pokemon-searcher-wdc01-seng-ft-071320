@@ -1340,6 +1340,36 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "Lucy",
+      "hp": "25",
+      "sprites": {
+        "front": "https://dogtime.com/assets/uploads/2011/01/file_23146_dalmatian.jpg",
+        "back": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234028/Dalmatian-MP.jpg"
+      },
+      "imgFront": true,
+      "id": 151
+    },
+    {
+      "name": "Bulbasaur",
+      "hp": "43",
+      "sprites": {
+        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "imgFront": true,
+      "id": 152
+    },
+    {
+      "name": "alex",
+      "hp": "50",
+      "sprites": {
+        "front": "https://dogtime.com/assets/uploads/2011/01/file_23146_dalmatian.jpg",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "imgFront": true,
+      "id": 153
     }
   ]
 }
