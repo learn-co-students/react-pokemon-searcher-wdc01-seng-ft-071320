@@ -7,7 +7,6 @@ import { Container } from "semantic-ui-react";
 class PokemonPage extends React.Component {
   state = {
     pokemonsArray: [],
-    isClicked: false,
   };
 
   componentDidMount() {
@@ -15,17 +14,65 @@ class PokemonPage extends React.Component {
       .then((resp) => resp.json())
       .then((listOfPokemons) =>
         this.setState({
-          pokemonsArray: listOfPokemons,
+          // pokemonsArray: listOfPokemons,
+          pokemonsArray: listOfPokemons.map((pokemon) => {
+            return { ...pokemon, clicked: false };
+          }),
         })
       );
   }
 
   toggleImage = (id) => {
     // console.log(id);
-    let foundPok = this.state.pokemonsArray.filter((pok) => pok.id === id);
-    this.setState({
-      pokemonsArray: [...this.state.pokemonsArray, foundPok],
+    // debugger;
+    let newArry = this.state.pokemonsArray.map((pokemon) => {
+      // console.log(pokemon);
+      if (pokemon.id === id) {
+        // debugger;
+        return { ...pokemon, clicked: !pokemon.clicked };
+      }
+      return pokemon;
     });
+    this.setState({
+      pokemonsArray: newArry,
+    });
+  };
+
+  addPokemon = (e) => {
+    e.preventDefault();
+    // e.reset();
+    // debugger;
+    let name = e.target[0].value;
+    let hp = e.target[1].value;
+    let front = e.target[2].value;
+    let back = e.target[3].value;
+
+    let newPokemon = {
+      id: this.state.pokemonsArray.length + 2,
+      name,
+      hp,
+      sprites: {
+        front,
+        back,
+      },
+    };
+
+    let configObj = {
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+      body: JSON.stringify({ name, hp, sprites: { front, back } }),
+    };
+
+    fetch("http://localhost:3000/pokemon", configObj)
+      .then((resp) => resp.json())
+      .then((data) =>
+        this.setState({
+          pokemonsArray: [...this.state.pokemonsArray, newPokemon],
+        })
+      );
   };
 
   render() {
@@ -34,7 +81,7 @@ class PokemonPage extends React.Component {
       <Container>
         <h1>Pokemon Searcher</h1>
         <br />
-        <PokemonForm />
+        <PokemonForm addPokemon={this.addPokemon} />
         <br />
         <Search />
         <br />
