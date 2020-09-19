@@ -40,7 +40,6 @@ class PokemonPage extends React.Component {
 
   addPokemon = (e) => {
     e.preventDefault();
-    // e.reset();
     // debugger;
     let name = e.target[0].value;
     let hp = e.target[1].value;
@@ -75,6 +74,25 @@ class PokemonPage extends React.Component {
       );
   };
 
+  handleChange = (e) => {
+    // debugger;
+    let currentList = [];
+    let newList = [];
+    if (e.target.value !== "") {
+      currentList = this.state.pokemonsArray;
+      newList = currentList.filter((pk) => {
+        const pkLowerCase = pk.name.toLowerCase();
+        const inputValue = e.target.value.toLowerCase();
+        return pkLowerCase.includes(inputValue);
+      });
+    } else {
+      newList = this.props.pokemonsArray;
+    }
+    this.setState({
+      pokemonsArray: newList,
+    });
+  };
+
   render() {
     // console.log(this.state.pokemonsArray);
     return (
@@ -83,7 +101,8 @@ class PokemonPage extends React.Component {
         <br />
         <PokemonForm addPokemon={this.addPokemon} />
         <br />
-        <Search />
+        <Search handleChange={this.handleChange} />
+        {/* <Search handleChange={this.handleChange.bind(this)} /> */}
         <br />
         <PokemonCollection
           allpokemons={this.state.pokemonsArray}

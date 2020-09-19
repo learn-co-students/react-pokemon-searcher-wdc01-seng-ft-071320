@@ -1342,22 +1342,13 @@
       }
     },
     {
-      "name": "bulbasaur",
+      "name": "Bulbasaur",
       "hp": "32",
       "sprites": {
         "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPzSo6Oc7J2P5XLhNu5wyB5LvAXRpBN9VEA&usqp=CAU",
         "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU03lcpPRYdaoCEc5Az04ZqjtWgAreBjK05w&usqp=CAU"
       },
       "id": 151
-    },
-    {
-      "name": "bulbasaur2",
-      "hp": "120",
-      "sprites": {
-        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPzSo6Oc7J2P5XLhNu5wyB5LvAXRpBN9VEA&usqp=CAU",
-        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU03lcpPRYdaoCEc5Az04ZqjtWgAreBjK05w&usqp=CAU"
-      },
-      "id": 152
     }
   ]
 }
