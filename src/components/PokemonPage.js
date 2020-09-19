@@ -5,6 +5,10 @@ import Search from './Search'
 import { Container } from 'semantic-ui-react'
 
 class PokemonPage extends React.Component {
+  handleChange= (value) => {
+    console.log(value)
+  }
+
   render() {
     return (
       <Container>
@@ -12,7 +16,7 @@ class PokemonPage extends React.Component {
         <br />
         <PokemonForm />
         <br />
-        <Search />
+        <Search handleChange={this.handleChange}/>
         <br />
         <PokemonCollection />
       </Container>
