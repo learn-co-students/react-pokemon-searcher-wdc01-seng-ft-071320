@@ -3,10 +3,11 @@ import { Form } from 'semantic-ui-react'
 
 class PokemonForm extends React.Component {
   render() {
+    // console.log(this.props.addPokemon)
     return (
       <div>
         <h3>Add a Pokemon!</h3>
-        <Form onSubmit={() => {console.log("submitting form...")}}>
+        <Form onSubmit={(e) => this.props.addPokemon(e) }>
           <Form.Group widths="equal">
             <Form.Input fluid label="Name" placeholder="Name" name="name" />
             <Form.Input fluid label="hp" placeholder="hp" name="hp" />

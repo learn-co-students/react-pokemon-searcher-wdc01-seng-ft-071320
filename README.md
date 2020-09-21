@@ -6,6 +6,11 @@
 
 ## React Code Challenge Practice
 
+App ->  PokemonPage  -> PokemonCollection ->  PokemonCard
+                        PokemonForm
+                        Search
+                        
+
 ## Project Goals
 
 - Create an index displaying pokemon 'cards'
