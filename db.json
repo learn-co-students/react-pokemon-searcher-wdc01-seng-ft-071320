@@ -1340,6 +1340,42 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "Bulbasaur",
+      "hp": "32",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPzSo6Oc7J2P5XLhNu5wyB5LvAXRpBN9VEA&usqp=CAU",
+        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU03lcpPRYdaoCEc5Az04ZqjtWgAreBjK05w&usqp=CAU"
+      },
+      "id": 151
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "100",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPzSo6Oc7J2P5XLhNu5wyB5LvAXRpBN9VEA&usqp=CAU",
+        "back": "https://www.kindpng.com/picc/m/120-1204340_transparent-evee-png-chibi-pokemon-eevee-png-download.png"
+      },
+      "id": 152
+    },
+    {
+      "name": "bulbasaur22",
+      "hp": "12",
+      "sprites": {
+        "front": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvPzSo6Oc7J2P5XLhNu5wyB5LvAXRpBN9VEA&usqp=CAU",
+        "back": "https://www.kindpng.com/picc/m/120-1204340_transparent-evee-png-chibi-pokemon-eevee-png-download.png"
+      },
+      "id": 153
+    },
+    {
+      "name": "bulbasaur3",
+      "hp": "2",
+      "sprites": {
+        "front": "https://s3.amazonaws.com/artistsnclients/i0v/samples/18tq_800.png",
+        "back": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSU03lcpPRYdaoCEc5Az04ZqjtWgAreBjK05w&usqp=CAU"
+      },
+      "id": 154
     }
   ]
 }
