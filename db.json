@@ -1340,6 +1340,96 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 151
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 152
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 153
+    },
+    {
+      "name": "bulbasaur",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 154
+    },
+    {
+      "name": "Kristian ",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 155
+    },
+    {
+      "name": "pika",
+      "hp": "69",
+      "sprites": {
+        "front": " https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png"
+      },
+      "id": 156
+    },
+    {
+      "name": "pika",
+      "hp": "",
+      "sprites": {
+        "front": "",
+        "back": ""
+      },
+      "id": 157
+    },
+    {
+      "name": "jeff",
+      "hp": "",
+      "sprites": {
+        "front": "",
+        "back": ""
+      },
+      "id": 158
+    },
+    {
+      "name": "jeff",
+      "hp": "",
+      "sprites": {
+        "front": "",
+        "back": ""
+      },
+      "id": 159
+    },
+    {
+      "name": "Kristian ",
+      "hp": "",
+      "sprites": {
+        "front": "",
+        "back": ""
+      },
+      "id": 160
     }
   ]
 }
