@@ -7,6 +7,7 @@ import { Container } from "semantic-ui-react";
 class PokemonPage extends React.Component {
   state = {
     pokemonsArray: [],
+    searchName: "",
   };
 
   componentDidMount() {
@@ -72,40 +73,32 @@ class PokemonPage extends React.Component {
           pokemonsArray: [...this.state.pokemonsArray, newPokemon],
         })
       );
+    // form.reset()
   };
 
-  handleChange = (e) => {
+  handleSearch = (e) => {
     // debugger;
-    let currentList = [];
-    let newList = [];
-    if (e.target.value !== "") {
-      currentList = this.state.pokemonsArray;
-      newList = currentList.filter((pk) => {
-        const pkLowerCase = pk.name.toLowerCase();
-        const inputValue = e.target.value.toLowerCase();
-        return pkLowerCase.includes(inputValue);
-      });
-    } else {
-      newList = this.props.pokemonsArray;
-    }
     this.setState({
-      pokemonsArray: newList,
+      searchName: e.target.value,
     });
   };
 
   render() {
     // console.log(this.state.pokemonsArray);
+    let displayedPokemons = this.state.pokemonsArray.filter((pk) =>
+      pk.name.toLowerCase().includes(this.state.searchName)
+    );
     return (
       <Container>
         <h1>Pokemon Searcher</h1>
         <br />
         <PokemonForm addPokemon={this.addPokemon} />
         <br />
-        <Search handleChange={this.handleChange} />
-        {/* <Search handleChange={this.handleChange.bind(this)} /> */}
+        <Search handleSearch={this.handleSearch} />
         <br />
         <PokemonCollection
-          allpokemons={this.state.pokemonsArray}
+          // allpokemons={this.state.pokemonsArray}
+          allpokemons={displayedPokemons}
           toggleImage={this.toggleImage}
         />
       </Container>
